@@ -1,7 +1,7 @@
 # Player-Stats-App
-.NET Core Wen API CRUD with Angular 
+.NET Core Web API CRUD with Angular 
 
-Crating a new Record
+Creating a new Record
 
 ![Screenshot (170)](https://user-images.githubusercontent.com/63441011/201675303-d14b9a3e-e35b-4a0a-b39e-e8fc0abd8b49.png)
 
