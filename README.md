@@ -1,27 +1,11 @@
-# PaymentApp
+# Player-Stats-App
+.NET Core Wen API CRUD with Angular 
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.1.
+Crating a new Record
+![Screenshot (170)](https://user-images.githubusercontent.com/63441011/201675303-d14b9a3e-e35b-4a0a-b39e-e8fc0abd8b49.png)
+Record Deletion
+![Screenshot (171)](https://user-images.githubusercontent.com/63441011/201675384-7f552004-e237-43dc-bdb8-5621214d7d5f.png)
+![Screenshot (172)](https://user-images.githubusercontent.com/63441011/201675405-83481ffe-1a64-469d-b002-8e49193f1414.png)
+Database
+![Screenshot (173)](https://user-images.githubusercontent.com/63441011/201675426-7fabb999-9dc3-4aa6-9181-2b66a6f160b7.png)
 
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
