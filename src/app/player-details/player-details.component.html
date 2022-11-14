@@ -1,0 +1,34 @@
+<div class="jumbotron py-3">
+    <h1 class="display-4 text-center">Player Stats</h1>
+</div>
+
+<div class="row">
+    <div class="col-md-6">
+        <app-player-detail-form></app-player-detail-form>
+    </div>
+    <div class="col-md-6">
+        <table class="table">
+            <thead class="thead-light">
+                <tr>
+                    <th>Player Name</th>
+                    <th>Position</th>
+                    <th>Jersey No</th>
+                    <th>Apps</th>
+                    <th>Goals</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let pd of service.list">
+                    <td (click)="populateForm(pd)">{{pd.playerName}}</td>
+                    <td (click)="populateForm(pd)">{{pd.position}}</td>
+                    <td (click)="populateForm(pd)">{{pd.jerseyNo}}</td>
+                    <td (click)="populateForm(pd)">{{pd.games}}</td>
+                    <td (click)="populateForm(pd)">{{pd.goals}}</td>
+                    <td>
+                        <i class="far fa-trash-alt fa-lg text-danger" (click)="onDelete(pd.playerDetailId)"></i>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
